@@ -28,10 +28,11 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=-1
+current_page=0
+FILE_NAME_0=4011;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay3_choose_your_adventure%2Fchoose_your_adventure.py;0;2
 
 [VTE]
-last_dir=/home/bugs/Projects/learningPython/Day3_choose_your_adventure/learn
+last_dir=/home/bugs/Projects/learningPython/Day3_choose_your_adventure
 
 [prjorg]
 source_patterns=*.c;*.C;*.cpp;*.cxx;*.c++;*.cc;*.m;
