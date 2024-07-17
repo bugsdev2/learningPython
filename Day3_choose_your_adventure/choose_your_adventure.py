@@ -31,25 +31,28 @@ if input("\n Shall we begin? Y or N? ").lower() ==  "y":
 			print("\n You decide to wait. \n And thank God you did for as the fog slowly lifted, \n you are able to see way into the distance three boats. \n Each of a different colour: Yellow, Red and Blue.")
 			boat_color = input("\n Which boat would you like to enter? Yellow, Red or Blue? ").lower()
 			if boat_color  == "yellow":
+				print(r'''
+                            _.--.
+                        _.-'_:-'||
+                    _.-'_.-::::'||
+               _.-:'_.-::::::'  ||
+             .'`-.-:::::::'     ||
+            /.'`;|:::::::'      ||_
+           ||   ||::::::'     _.;._'-._
+           ||   ||:::::'  _.-!oo @.!-._'-.
+           \'.  ||:::::.-!()oo @!()@.-'_.|
+            '.'-;|:.-'.&$@.& ()$%-'o.'\U||
+              `>'-.!@%()@'@_%-'_.-o _.|'||
+               ||-._'-.@.-'_.-' _.-o  |'||
+               ||=[ '-._.-\U/.-'    o |'||
+               || '-.]=|| |'|      o  |'||
+               ||      || |'|        _| ';
+               ||      || |'|    _.-'_.-'
+               |'-._   || |'|_.-'_.-'
+               '-._'-.|| |' `_.-'
+                    '-.||_/.-'
+				''')
 				print(f"\n You enter the {boat_color} boat and quickly rush over to the controls. \n Thank uncle Roger for teaching you how to ride a boat. \n You start the engine and make your way across \n where you see the treasure chest! \n Hurray! You have made it till the end. \n The treasure is now yours.")
-				# ~ print('''
-				                 # ~ .=""_;=.
-				             # ~ ,-"_,=""     `"=.
-				            # ~ "=._o`"-._        `"=.
-				                 # ~ `"=._o`"=._      _`"=._        
-				                      # ~ :=._o "=._."_.-="'"=.
-				             # ~ __.--" , ; `"=._o." ,-"""-._ ". .
-				            # ~ ._"  ,. .` ` `` ,  `"-._"-._   ". '
-				            # ~ |o`"=._` , "` `; .". ,  "-._"-._; ;              
-				            # ~ | ;`-.o`"=._; ." ` '`."\` . "-._ /
-				            # ~ |o;    `"-.o`"=._``  '` " ,__.--o;
-				            # ~ | ;     (#) `-.o `"=.`_.--"_o.-; ;
-				# ~ _/______/___|o;._    "      `".o|o_.--"    ;o;____/_____
-				# ~ ____/______/_"=._o--._        ; | ;        ; ;/______/__
-				# ~ _/______/______/__"=._o--._   ;o|o;     _._;o;____/_____
-				# ~ ____/______/______/____"=._o._; | ;_.--"o.--"_/______/__
-				# ~ _/______/______/______/_____"=.o|o_.--""___/______/_____
-				# ~ ''')
 			else:
 				print(f"\n You choose the {boat_color} boat. \n As soon as you jump into the boat \n a trap door opens and you fall right into the river \n where amidst the fishes you also see large bodied reptiles \n moving closer to you. \n GAME OVER")
 		else:
