@@ -45,7 +45,7 @@ else:
 		print("You win.")
 	elif computer_choice == 0 and user_choice == 2:
 		print("You lose.")
-	if computer_choice > user_choice:
+	elif computer_choice > user_choice:
 		print("You lose. Computer wins.")
 	elif user_choice > computer_choice:
 		print("You win.")
