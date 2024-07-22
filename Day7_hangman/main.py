@@ -1,15 +1,18 @@
 from random import choice
+import os
 
 from hangman_art import hangman_logo, hangman_stages
 from hangman_words import word_list
 
 def start_game():
+	os.system('cls' if os.name == "nt" else 'clear')
 	print(hangman_logo)
 	
 	chosen_word = choice(word_list)
 
 	display = []
 	lives = 6
+	guessed_letters = []
 
 	for letter in chosen_word:
 		if letter == " ":
@@ -22,14 +25,23 @@ def start_game():
 
 	end_of_game = False
 	
-	while not end_of_game:
+	while not end_of_game:		
+		print("__________________________________________________")
 		user_guess = input("\nGuess a letter: ").lower()
+		os.system('cls' if os.name == "nt" else 'clear')
+		retry = False
+		if user_guess in guessed_letters:
+			print(f"\nYou have already used {user_guess}. Please try another letter.")
+			retry = True
+		
+		guessed_letters.append(user_guess)
+		
 
-		if user_guess not in chosen_word:
+		if user_guess not in chosen_word and not retry:
 			lives -= 1
 			if lives != 0:
 				print(f"\nYou have {lives} chances left.")
-
+			
 		for i in range(len(chosen_word)):
 			if chosen_word[i] == user_guess:
 				display[i] = user_guess

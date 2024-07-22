@@ -29,9 +29,9 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=355;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay7_hangman%2Fmain.py;0;2
+FILE_NAME_0=194;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay7_hangman%2Fmain.py;0;2
 FILE_NAME_1=574;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay7_hangman%2Fhangman_art.py;0;2
-FILE_NAME_2=22691;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay7_hangman%2Fhangman_words.py;0;2
+FILE_NAME_2=22425;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay7_hangman%2Fhangman_words.py;0;2
 
 [VTE]
 last_dir=/home/bugs/Projects/learningPython/Day7_hangman
