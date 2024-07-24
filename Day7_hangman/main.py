@@ -30,6 +30,7 @@ def start_game():
 		user_guess = input("\nGuess a letter: ").lower()
 		os.system('cls' if os.name == "nt" else 'clear')
 		retry = False
+		
 		if user_guess in guessed_letters:
 			print(f"\nYou have already used {user_guess}. Please try another letter.")
 			retry = True

@@ -29,12 +29,10 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=194;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay7_hangman%2Fmain.py;0;2
-FILE_NAME_1=574;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay7_hangman%2Fhangman_art.py;0;2
-FILE_NAME_2=22425;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay7_hangman%2Fhangman_words.py;0;2
+FILE_NAME_0=1507;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay8_caesar_cipher%2Fcaesar_cipher.py;0;2
 
 [VTE]
-last_dir=/home/bugs/Projects/learningPython/Day7_hangman
+last_dir=/home/bugs/Projects/learningPython/Day8_caesar_cipher
 
 [prjorg]
 source_patterns=*.c;*.C;*.cpp;*.cxx;*.c++;*.cc;*.m;
