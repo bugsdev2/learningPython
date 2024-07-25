@@ -29,11 +29,10 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=746;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay8_caesar_cipher%2Fcaesar_cipher.py;0;2
-FILE_NAME_1=383;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay8_caesar_cipher%2Fcaesar_art.py;0;2
+FILE_NAME_0=456;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay9_silent_auction_bid%2Flearn%2Fscore_to_grade.py;0;2
 
 [VTE]
-last_dir=/home/bugs/Projects/learningPython/Day8_caesar_cipher
+last_dir=/home/bugs/Projects/learningPython/Day9_silent_auction_bid/learn
 
 [prjorg]
 source_patterns=*.c;*.C;*.cpp;*.cxx;*.c++;*.cc;*.m;
