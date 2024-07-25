@@ -29,10 +29,10 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=456;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay9_silent_auction_bid%2Flearn%2Fscore_to_grade.py;0;2
+FILE_NAME_0=210;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay9_silent_auction_bid%2Fsilent_auction_bid.py;0;2
 
 [VTE]
-last_dir=/home/bugs/Projects/learningPython/Day9_silent_auction_bid/learn
+last_dir=/home/bugs/Projects/learningPython/Day9_silent_auction_bid
 
 [prjorg]
 source_patterns=*.c;*.C;*.cpp;*.cxx;*.c++;*.cc;*.m;
