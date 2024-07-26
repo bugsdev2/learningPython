@@ -1,5 +1,3 @@
-import re
-
 from calculator_art import logo
 
 def add(n1, n2):
