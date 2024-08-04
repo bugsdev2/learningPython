@@ -29,11 +29,11 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=0;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay10_calculator%2Fcalculator.py;0;2
-FILE_NAME_1=345;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay10_calculator%2Fcalculator_art.py;0;2
+FILE_NAME_0=256;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay11_blackjack%2Fblackjack.py;0;2
+FILE_NAME_1=55;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay11_blackjack%2Fblackjack_art.py;0;2
 
 [VTE]
-last_dir=/home/bugs/Projects/learningPython/Day10_calculator
+last_dir=/home/bugs/Projects/learningPython/Day11_blackjack
 
 [prjorg]
 source_patterns=*.c;*.C;*.cpp;*.cxx;*.c++;*.cc;*.m;
