@@ -28,9 +28,10 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=256;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay11_blackjack%2Fblackjack.py;0;2
-FILE_NAME_1=55;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay11_blackjack%2Fblackjack_art.py;0;2
+current_page=3
+FILE_NAME_0=844;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay11_blackjack%2Fblackjack.py;0;2
+FILE_NAME_1=175;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay11_blackjack%2Fblackjack2.py;0;2
+FILE_NAME_2=308;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay11_blackjack%2Fblackjack_art.py;0;2
 
 [VTE]
 last_dir=/home/bugs/Projects/learningPython/Day11_blackjack
