@@ -11,7 +11,7 @@ def get_random_number():
 game_over = False
 
 while not game_over:
-	os.system('cls' if os.system == 'nt' else 'clear')
+	os.system('cls' if os.name == 'nt' else 'clear')
 	print(logo)
 
 	print("Welcome to the Number Guessing Game")
