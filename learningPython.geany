@@ -29,10 +29,10 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=1017;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay12_number_guessing_game%2Fmain.py;0;2
+FILE_NAME_0=708;Python;0;EUTF-8;1;1;0;%2Fhome%2Fbugs%2FProjects%2FlearningPython%2FDay14_higher_lower%2Fmain.py;0;2
 
 [VTE]
-last_dir=/home/bugs/Projects/learningPython/Day12_number_guessing_game
+last_dir=/home/bugs/Projects/learningPython/Day14_higher_lower
 
 [prjorg]
 source_patterns=*.c;*.C;*.cpp;*.cxx;*.c++;*.cc;*.m;
