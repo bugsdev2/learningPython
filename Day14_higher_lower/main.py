@@ -7,8 +7,9 @@ import os
 def get_person_details():
 	persons = []
 	for _ in range(2):
-		rand_num = random.randint(0, len(data)-1)
-		persons.append(data[rand_num])
+		persons.append(random.choice(data))
+	while persons[0] == persons[1]:
+		persons[1] = random.choice(data)
 	return persons
 	
 	
@@ -29,17 +30,23 @@ else:
 	is_game_start = False
 
 score = 0
+[A, B]= get_person_details()
 while is_game_start:
-	os.system('cls' if os.name == 'nt' else 'clear')
-	print(logo)
-	[A, B]= get_person_details()
-	print(f"Current Score: {score}")
+	
+	# ~ print(logo)
+	A = B
+	B = random.choice(data)
+	# ~ print(f"Current Score: {score}")
 	print(f"\nCompare A: {A['name']}, a {A['description']} from {A['country']}")
 	print(vs)
 	print(f"Against B: {B['name']}, a {B['description']} from {B['country']}")
 	guess = input("Who has more followers? A or B: ").lower()
+	
+	os.system('cls' if os.name == 'nt' else 'clear')
+	
 	if guess == compare(guess, A, B):
 		score += 1
+		print(f"You're right! Current Score: {score}")
 	else:
 		print(f"\nSorry. It was the wrong answer. You lose this game.")
 		print(f"Final Score: {score}")
